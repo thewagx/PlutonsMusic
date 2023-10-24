@@ -34,7 +34,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://github.com/AnonymousX1025/FallenMusic"
+            text="☁️ ᴋᴀʏɴᴀᴋ ᴋᴏᴅ ☁️", url="https://github.com/PlutoOwner/PlutoMuzik"
         ),
         InlineKeyboardButton(text="👤 sᴀʜɪ̇ᴘ", user_id=config.OWNER_ID),
     ],
@@ -56,7 +56,7 @@ helpmenu = [
         )
     ],
     [
-        InlineKeyboardButton(text="sᴜᴅᴏ", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="ᴀᴢəʀʙᴀʏᴄᴀɴ", callback_data="fallen_cb sudo"),
         InlineKeyboardButton(text="sᴀʜɪᴘ", callback_data="fallen_cb owner"),
     ],
     [
