@@ -25,12 +25,12 @@ async def skip_str(_, message: Message):
         except:
             return
     else:
-        title = get[0]["başlık"]
-        duration = get[0]["süre"]
-        file_path = get[0]["dosya türü"]
-        videoid = get[0]["video numarası"]
+        title = get[0]["title"]
+        duration = get[0]["duration"]
+        file_path = get[0]["file_path"]
+        videoid = get[0]["videoid"]
         req_by = get[0]["req"]
-        user_id = get[0]["kullanıcı"]
+        user_id = get[0]["user_id"]
         get.pop(0)
 
         stream = AudioPiped(file_path, audio_parameters=HighQualityAudio())
