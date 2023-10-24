@@ -1,81 +1,63 @@
-# MIT License
-#
-# Copyright (c) 2023 AnonymousX1025
-#
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in all
-# copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
-
 from FallenMusic import BOT_NAME
 
 PM_START_TEXT = """
-ʜᴇʏ {0}, 🥀
-๏ ᴛʜɪs ɪs** {1} !
+ᴍᴇʀʜᴀʙᴀ {0}, 🥀
+๏ ʙᴇɴɪᴍ ᴀᴅıᴍ** {1} !
 
-➻ ᴀ ғᴀsᴛ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ.
+➻ ʜıᴢʟı ᴠᴇ ɢᴜ̈ᴠᴇɴʟɪ ᴍᴜ̈ᴢɪᴋ ʙᴏᴛᴜ ᴏʟᴍᴀᴋ ᴛᴇᴋ ʜᴇᴅᴇғɪᴍ.
 """
 
 START_TEXT = """
-**ʜᴇʏ** {0}, 🥀
-  {1} ᴄᴀɴ ɴᴏᴡ ᴩʟᴀʏ sᴏɴɢs ɪɴ {2}.
+**ᴍᴇʀʜᴀʙᴀ** {0}, 🥀
+  {1} ʜɪᴢᴍᴇᴛ ᴠᴇʀᴍᴇʏᴇ ʜᴀᴢıʀ. {2}.
 
 ──────────────────
-➻ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʜᴇʟᴘ ᴀʙᴏᴜᴛ ᴍᴇ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ᴀsᴋ sᴏᴍᴇᴛʜɪɴɢ ʏᴏᴜ ᴄᴀɴ ᴊᴏɪɴ ᴍʏ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ]({3}).
+➻ ᴅᴇsᴛᴇᴋ ᴠᴇ ʙɪʟᴅɪʀɪᴍ ɪᴄ̧ɪɴ ᴀɴıɴᴅᴀ ᴜʟᴀşᴀʙɪʟɪʀsɪɴɪᴢ [Yᴀʀᴅıᴍ Kᴀɴᴀʟı]({3}).
 """
 
 HELP_TEXT = f"""
-<u>❄ **ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴜsᴇʀs ɪɴ {BOT_NAME} :**</u>
+<u>❄ **ʜᴇʀ ᴋᴜʟʟᴀɴıᴄı ɪᴄ̧ɪɴ ᴋᴏᴍᴜᴛʟᴀʀ {BOT_NAME} :**</u>
 
-๏ /play : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.
-๏ /pause : ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-๏ /resume : ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ.
-๏ /skip : sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ɴᴇxᴛ ᴛʀᴀᴄᴋ ɪɴ ǫᴜᴇᴜᴇ.
-๏ /end : ᴄʟᴇᴀʀs ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
+๏ /oynat - /play : şᴀʀᴋı ᴏʏɴᴀᴛıʀ.
+๏ /durdur - /pause : ʏᴀʏıɴı ᴅᴜʀᴀᴋʟᴀᴛıʀ.
+๏ /devam - /resume : Yayını devam ettirir.
+๏ /atla - /skip : ᴏ ᴀɴᴋɪ ᴘᴀʀᴄ̧ᴀʏı ᴀᴛʟᴀʀ.
+๏ /son - /end : ʏᴀʏıɴı sᴏɴʟᴀɴᴅıʀıʀ.
 
-๏ /ping : sʜᴏᴡ ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
-๏ /sudolist : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ sᴜᴅᴏ ᴜsᴇʀs ᴏғ ᴛʜᴇ ʙᴏᴛ.
-
-๏ /song : ᴅᴏᴡɴʟᴏᴀᴅs ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ sᴏɴɢ ᴀɴᴅ sᴇɴᴅ ɪᴛ ᴛᴏ ʏᴏᴜ.
-
-๏ /search : sᴇᴀʀᴄᴇs ᴛʜᴇ ɢɪᴠᴇɴ ǫᴜᴇʀʏ ᴏɴ ʏᴏᴜᴛᴜʙᴇ ᴀɴᴅ sʜᴏᴡs ʏᴏᴜ ᴛʜᴇ ʀᴇsᴜʟᴛ.
+๏ /ping : ᴘɪɴᴋ ᴠᴇ sɪsᴛᴇᴍ ɪsᴛᴀᴛɪsᴛɪᴋʟᴇʀɪɴɪ ɢᴏ̈sᴛᴇʀɪʀ.
+๏ /bul : ᴘᴀʀᴄ̧ᴀ ɪɴᴅɪʀɪʀ ᴠᴇ sɪᴢᴇ ᴏ̈ᴢᴇʟᴅᴇɴ ɢᴏ̈ɴᴅᴇʀɪʀ.
+๏ /search : ʏᴏᴜᴛᴜʙᴇ ᴜ̈ᴢᴇʀɪɴᴅᴇ ᴀʀᴀᴍᴀ ʏᴀᴘᴀʀ.
 """
 
 HELP_SUDO = f"""
-<u>✨ **sᴜᴅᴏ ᴄᴏᴍᴍᴀɴᴅs ɪɴ {BOT_NAME} :**</u>
+<u>❄ **İꜱᴛɪꜰᴀᴅƏÇɪʟƏʀ ÜÇÜɴ ᴍÖᴠᴄᴜᴅ ƏᴍʀʟƏʀ {BOT_NAME} :**</u>
 
-๏ /activevc : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛs.
-๏ /eval or /sh : ʀᴜɴs ᴛʜᴇ ɢɪᴠᴇɴ ᴄᴏᴅᴇ ᴏɴ ᴛʜᴇ ʙᴏᴛ's ᴛᴇʀᴍɪɴᴀʟ.
-๏ /speedtest : ʀᴜɴs ᴀ sᴘᴇᴇᴅᴛᴇsᴛ ᴏɴ ᴛʜᴇ ʙᴏᴛ's sᴇʀᴠᴇʀ.
-๏ /sysstats : sʜᴏᴡs ᴛʜᴇ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ's sᴇʀᴠᴇʀ.
+๏ /play : ꜱƏꜱʟɪ Çᴀᴛᴅᴀ ᴍᴜꜱɪQɪ ʙᴀŞʟᴀᴅɪʀ.
+๏ /pause : ᴄᴀʀɪ İꜰᴀʏᴀ ꜰᴀꜱɪʟƏ ᴠᴇʀɪʀ.
+๏ /resume : ᴅᴀʏᴀɴᴅɪʀɪʟᴍɪŞ ʏᴀʏɪᴍɪ ᴅᴀᴠᴀᴍ ᴇᴛᴅɪʀɪɴ.
+๏ /skip : ᴄᴀʀɪ İꜰᴀ ᴀxɪɴɪɴɪ ᴀᴛʟᴀʏɪɴ ᴠƏ ɴÖᴠʙƏᴅƏ ᴏʟᴀɴ ᴛʀᴇᴋɪ ʏᴀʏɪᴍʟᴀᴍᴀĞᴀ ʙᴀŞʟᴀʏᴀʀ.
+๏ /end : ᴄᴀʀɪ İꜰᴀ ᴀxɪɴɪɴɪ ʙɪᴛɪʀƏʀ.
 
-๏ /setname [ᴛᴇxᴛ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴛᴇxᴛ] : ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ɴᴀᴍᴇ.
-๏ /setbio [ᴛᴇxᴛ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴛᴇxᴛ] : ᴄʜᴀɴɢᴇ ᴛʜᴇ ʙɪᴏ ᴏғ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.
-๏ /setpfp [ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ] : ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴘғᴘ ᴏғ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.
-๏ /delpfp : ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘғᴘ ᴏғ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.
+๏ /ping : ʙᴏᴛᴜɴ ᴘɪɴɢ ᴠƏ ꜱɪꜱᴛᴇᴍ ꜱᴛᴀᴛɪꜱᴛɪᴋᴀꜱɪɴɪ ɢÖꜱᴛƏʀɪʀ.
+๏ /song : İꜱᴛƏᴅɪʏɪɴɪᴢ ᴍᴀʜɴɪɴɪ ʏÜᴋʟƏʏɪʀ ᴠƏ ꜱɪᴢƏ ɢÖɴᴅƏʀɪʀ.
+๏ /search : ᴠᴇʀɪʟƏɴ ꜱᴏʀĞᴜɴᴜ ʏᴏᴜᴛᴜʙᴇ-ᴅᴀ ᴀxᴛᴀʀɪʀ ᴠƏ ɴƏᴛɪᴄƏɴɪ ꜱɪᴢƏ ɢÖꜱᴛƏʀɪʀ.
 """
 
 HELP_DEV = f"""
-<u>✨ **ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs ɪɴ {BOT_NAME} :**</u>
+<u>✨ **sᴀʜɪᴘ ɪᴄ̧ɪɴ ᴋᴏᴍᴜᴛʟᴀʀ {BOT_NAME} :**</u>
 
-๏ /config : ᴛᴏ ɢᴇᴛ ᴀʟʟ ᴄᴏɴꜰɪɢ ᴠᴀʀɪᴀʙʟᴇꜱ ᴏꜰ ʙᴏᴛ.
-๏ /broadcast [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ] : ʙʀᴏᴀᴅᴄᴀsᴛ ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴛᴏ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
-๏ /rmdownloads : ᴄʟᴇᴀʀs ᴛʜᴇ ᴄᴀᴄʜᴇ ғɪʟᴇs ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ᴏɴ ᴛʜᴇ ʙᴏᴛ's sᴇʀᴠᴇʀ.
-๏ /leaveall : ᴏʀᴅᴇʀs ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ʟᴇᴀᴠᴇ ᴀʟʟ ᴄʜᴀᴛs.
+๏ /config : ʙᴏᴛᴜɴ ᴛᴜ̈ᴍ ʏᴀᴘıʟᴀɴᴅıʀᴍᴀ ᴅᴇɢ̆ɪşᴋᴇɴʟᴇʀɪɴɪ ɪʟᴇᴛɪʀ.
+๏ /duyuru [ᴍᴇsᴀᴊ ʏᴀᴢıɴ ᴠᴇʏᴀ ʏᴀɴıᴛʟᴀʏıɴ] : ᴍᴇsᴀᴊı ʙᴏᴛᴜɴ ʜɪᴢᴍᴇᴛ ᴠᴇʀᴅɪɢ̆ɪ sᴏʜʙᴇᴛʟᴇʀᴇ ɪʟᴇᴛɪʀ.
+๏ /rmdownloads : ʙᴏᴛᴜɴ sᴜɴᴜᴄᴜsᴜɴᴀ ɪɴᴅɪʀɪʟᴇɴ ᴄᴀᴄʜᴇ ᴅᴏsʏᴀʟᴀʀı ᴛᴇᴍɪᴢʟᴇʀ.
+๏ /leaveall : ᴀsɪsᴛᴀɴı ᴛᴜ̈ᴍ sᴏʜʙᴇᴛʟᴇʀᴅᴇɴ ᴄ̧ıᴋᴀʀıʀ
 
-๏ /addsudo [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ᴀᴅᴅ ᴛʜᴇ ᴜsᴇʀ ᴛᴏ sᴜᴅᴏ ᴜsᴇʀs ʟɪsᴛ.
-๏ /rmsudo [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ʀᴇᴍᴏᴠᴇ ᴛʜᴇ ᴜsᴇʀ ғʀᴏᴍ sᴜᴅᴏ ᴜsᴇʀs ʟɪsᴛ.
+๏ /aktifses : şᴜ ᴀɴᴅᴀ ᴀᴋᴛɪғ sᴇsʟɪ sᴏʜʙᴇᴛʟᴇʀɪɴ ʟɪsᴛᴇsɪɴɪ ɢᴏ̈sᴛᴇʀɪʀ.
+๏ /eval or /sh : ᴠᴇʀɪʟᴇɴ ᴋᴏᴅᴜ ʙᴏᴛᴜɴ ᴛᴇʀᴍɪɴᴀʟɪɴᴅᴇ ᴄ̧ᴀʟışᴛıʀıʀ.
+๏ /speedtest : ʙᴏᴛᴜɴ sᴜɴᴜᴄᴜsᴜɴᴅᴀ ʜıᴢ ᴛᴇsᴛɪ ʏᴀᴘᴀʀ
+๏ /stats : sɪsᴛᴇᴍ ɪsᴛᴀᴛɪsᴛɪᴋʟᴇʀɪɴɪ ɢᴏ̈sᴛᴇʀɪʀ
+
+๏ /setname [ᴛᴇxᴛ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴛᴇxᴛ] : ᴀsɪsᴛᴀɴ ʜᴇsᴀᴘ ᴀᴅıɴı ᴅᴇɢ̆ɪşᴛɪʀɪɴ.
+๏ /setbio [ᴛᴇxᴛ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴛᴇxᴛ] : ᴀsɪsᴛᴀɴ ʜᴇsᴀᴘ ʙɪᴏsᴜɴᴜ ᴅᴇɢ̆ɪşᴛɪʀɪɴ.
+๏ /setpfp [ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ] : ᴀsɪsᴛᴀɴ ʜᴇsᴀᴘ ɪᴄ̧ɪɴ ᴘʀᴏғɪʟ ᴀʏᴀʀʟᴀʏıɴ.
+๏ /delpfp : ᴀsɪsᴛᴀɴ ʜᴇsᴀʙıɴ ᴘʀᴏғɪʟɪɴɪ sɪʟɪɴ.
 """
