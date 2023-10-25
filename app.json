@@ -1,5 +1,5 @@
 {
-    "name": "ғᴀʟʟᴇɴ ダ ᴍᴜsɪᴄ",
+    "name": "Pluto ダ ᴍᴜsɪᴄ",
     "description": "A VC Player Bot for telegram videochats, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://te.legra.ph/file/6f99c49bdb4679acad717.jpg",
     "keywords": [
@@ -38,12 +38,12 @@
       },
       "SUPPORT_CHAT": {
         "description": "Link of your telegram support group. (Must pe public)",
-        "value": "t.me/cerenasistanchannel",
+        "value": "",
         "required": true
       },
       "PLAYLIST_ID": {
-        "description": "Link of your telegram support group. (Must pe public)",
-        "value": "t.me/cerenasistanchannel",
+        "description": "Link of your Log Channel. (Must pe public)",
+        "value": "",
         "required": true  
       },
       "SUPPORT_CHANNEL": {
