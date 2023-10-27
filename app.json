@@ -52,7 +52,7 @@
         "required": true  
       },
       "SUPPORT_CHANNEL": {
-        "description": "Link of your telegram support Channel. Example https://t.me/YourChannel ",
+        "description": "Link of your telegram support Channel. Example https://t.me/YourChannel",
         "value": "",
         "required": true
       }
