@@ -22,7 +22,7 @@
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "A Bot's token from @Botfather",
         "value": "",
         "required": true
       },
@@ -37,17 +37,22 @@
         "required": true
       },
       "SUPPORT_CHAT": {
-        "description": "Link of your telegram support group. (Must pe public)",
+        "description": "Link of your telegram support group. Example https://t.me/YourGroup",
         "value": "",
         "required": true
       },
+      "PLAYLIST": {
+        "description": "Link of your Log Channel. Example https://t.me/YourChannel",
+        "value": "",
+        "required": true      
+      },
       "PLAYLIST_ID": {
-        "description": "Link of your Log Channel. (Must pe public)",
+        "description": "Your Log Channel. Example -1001972858710",
         "value": "",
         "required": true  
       },
       "SUPPORT_CHANNEL": {
-        "description": "Link of your telegram support Channel. (Must pe public)",
+        "description": "Link of your telegram support Channel. Example https://t.me/YourChannel ",
         "value": "",
         "required": true
       }
