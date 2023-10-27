@@ -37,7 +37,7 @@ async def song(_, message: Message):
             f"[ Örnek Kullanīm ]\n\n/Mustafa Ceceli Es"
         )
 
-    await m.edit_text("» Şarkı indiriliyor,\n\nLütfen bekleyin....")
+    await m.edit_text("» Şarkı indiriliyor,\n\nLütfen Bekleyin. 🔁")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
