@@ -34,7 +34,7 @@ async def song(_, message: Message):
     except Exception as ex:
         LOGGER.error(ex)
         return await m.edit_text(
-            f"YT-DL'den parça alınamadı.\n\nNedeni:** `{ex}`"
+            f"[ Örnek Kullanīm ]\n\n/Mustafa Ceceli Es"
         )
 
     await m.edit_text("» Şarkı indiriliyor,\n\nLütfen bekleyin....")
@@ -54,7 +54,7 @@ async def song(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎧 𝐌𝐮̈𝐳𝐢𝐤 𝐊𝐚𝐧𝐚𝐥ı", url=config.PLAYLIST
+                            text="🎧 𝐌𝐮̈𝐳𝐢𝐤 𝐊𝐚𝐧𝐚𝐥ı 🎧", url=config.PLAYLIST
                         )
                     ]
                 ]
