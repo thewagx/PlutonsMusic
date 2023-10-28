@@ -37,7 +37,7 @@ async def song(_, message: Message):
             f"[ Örnek Kullanīm ]\n\n/Mustafa Ceceli Es"
         )
 
-    await m.edit_text("» Şarkı indiriliyor,\n\nLütfen Bekleyin. 🔁")
+    await m.edit_text("» Şarkı indiriliyor,\n\nLütfen Bekleyin 🔁")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
@@ -78,26 +78,26 @@ async def song(_, message: Message):
             )
             if message.chat.type != ChatType.PRIVATE:
                 await message.reply_text(
-                    "Lütfen özel mesajlarınızı kontrol edin, istediğiniz şarkıyı oraya gönderdim."
+                    "Pm Kutunu Kontrol Et."
                 )
         except:
             start_butt = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🙋🏻 Buradan",
+                            text="🐙 Buradan 🐙",
                             url=f"https://t.me/{BOT_USERNAME}?start",
                         )
                     ]
                 ]
             )
             return await m.edit_text(
-                text="YouTube'dan Müziği yalnızca özel sohbette indirebilirsiniz. Lütfen beni özel sohbette başlat.",
+                text="Pm Kutunu Kontrol Et.",
                 reply_markup=start_butt,
             )
         await m.delete()
     except:
-        return await m.edit_text("Telegram sunucularına ses yüklemesi başarısız oldu.")
+        return await m.edit_text("Telegram Sunucularına Ses Yüklemesi Başarısız Oldu.")
 
     try:
         os.remove(audio_file)
