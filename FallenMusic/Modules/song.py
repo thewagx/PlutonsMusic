@@ -34,7 +34,7 @@ async def song(_, message: Message):
     except Exception as ex:
         LOGGER.error(ex)
         return await m.edit_text(
-            f"[ Örnek Kullanīm ]\n\n/Mustafa Ceceli Es"
+            f"[ Örnek Kullanīm ]\n\n/bul Mustafa Ceceli Es"
         )
 
     await m.edit_text("» Şarkı indiriliyor,\n\nLütfen Bekleyin 🔁")
